@@ -19,7 +19,7 @@ public class Citta {
 		this.nome = nome;
 		this.rilevamenti = rilevamenti;
 	}
-
+	
 	public String getNome() {
 		return nome;
 	}
@@ -35,7 +35,7 @@ public class Citta {
 	public void setRilevamenti(List<Rilevamento> rilevamenti) {
 		this.rilevamenti = rilevamenti;
 	}
-
+    
 	public int getCounter() {
 		return counter;
 	}
